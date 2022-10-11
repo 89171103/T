@@ -1,0 +1,7 @@
+#Comment
+RewriteEngine on
+
+RewriteRule ^api/tasks api/tasks.php [NC,L]
+RewriteRule ^api/delete api/delete.php [NC,L]
+# NC - non case sensitive
+# L - The last rule do not continue
